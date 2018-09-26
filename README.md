@@ -8,13 +8,13 @@
 * As explained by udacity lectures
 
 # IP Address
-52.56.99.8
+18.185.184.210
 
 # Port
 22 (2200 TCP enabled)
 
 # URL
-http://ec2-52-56-99-8.eu-west-2.compute.amazonaws.com/
+http://ec2-18-185-184-210.eu-central-1.compute.amazonaws.com/
 
 # Installed software
 * Flask, apache2, pip, and the item catalog project dependencies.
@@ -29,3 +29,4 @@ http://ec2-52-56-99-8.eu-west-2.compute.amazonaws.com/
 * database server is configured to serve data (postgresql db was created with username: catalog and password: catalog)
 * catalog.conf file added to sites-available directory
 * catalg.wsgi file in /var/www/catalog
+* grader sudo password: grader

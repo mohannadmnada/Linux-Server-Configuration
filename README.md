@@ -20,3 +20,12 @@ http://ec2-52-56-99-8.eu-west-2.compute.amazonaws.com/
 * Flask, apache2, pip, and the item catalog project dependencies.
 * grader user created and added to sudoers as demanded.
 * ufw enabled ports 2200, 80 and 123.
+
+# Summary of configurations made
+* root access disabled
+* grader can undergo sudo commands
+* apache2 configured and app served as wsgi app.
+* ports configured by ufw 2200 & 80 as tcp while 123 was configured as udp.
+* database server is configured to serve data (postgresql db was created with username: catalog and password: catalog)
+* catalog.conf file added to sites-available directory
+* catalg.wsgi file in /var/www/catalog

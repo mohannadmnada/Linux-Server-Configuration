@@ -8,13 +8,14 @@
 * As explained by udacity lectures
 
 # IP Address
-18.185.184.210
+3.120.39.185
 
 # Port
 22 (2200 TCP enabled)
 
 # URL
-http://ec2-18-185-184-210.eu-central-1.compute.amazonaws.com/
+http://ec2-3-120-39-185.eu-central-1.compute.amazonaws.com/
+
 
 # Installed software
 * Flask, apache2, pip, and the item catalog project dependencies.
